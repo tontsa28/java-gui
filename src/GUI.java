@@ -27,7 +27,7 @@ public class GUI implements ActionListener{
         label = new JLabel("Klikkaukset: 0");
 
         panel = new JPanel();
-        panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+        panel.setBorder(BorderFactory.createEmptyBorder(50, 50, 30, 50));
         panel.setLayout(new GridLayout(0, 1));
         panel.add(button);
         panel.add(label);
